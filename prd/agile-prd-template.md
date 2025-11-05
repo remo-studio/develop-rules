@@ -1,197 +1,197 @@
-# Product Requirements Document - Agile Style
+# 产品需求文档 - 敏捷风格
 
-## Document Info
-- **Product Name**: [Product Name]
-- **Version**: [1.0]
-- **Date**: [YYYY-MM-DD]
-- **Owner**: [Product Owner Name]
-- **Contributors**: [Team Members]
-
----
-
-## Executive Summary
-Brief overview of the product vision and key objectives (2-3 sentences).
+## 文档信息
+- **产品名称**: [产品名称]
+- **版本**: [1.0]
+- **日期**: [YYYY-MM-DD]
+- **负责人**: [产品负责人姓名]
+- **贡献者**: [团队成员]
 
 ---
 
-## Product Vision & Goals
-
-### Vision Statement
-A concise statement describing the long-term vision for this product.
-
-### Success Metrics (KPIs)
-| Metric | Target | Measurement Method |
-|--------|--------|-------------------|
-| [Metric 1] | [Value] | [How to measure] |
-| [Metric 2] | [Value] | [How to measure] |
-
-### OKRs (Objectives & Key Results)
-**Objective 1**: [Description]
-- KR1: [Measurable result]
-- KR2: [Measurable result]
-- KR3: [Measurable result]
+## 执行摘要
+简要概述产品愿景和核心目标（2-3句话）。
 
 ---
 
-## Target Users & Personas
+## 产品愿景与目标
 
-### Primary Persona
-- **Name**: [Persona Name]
-- **Role**: [Job Title]
-- **Goals**: What they want to achieve
-- **Pain Points**: Current challenges
-- **Tech Savviness**: [Low/Medium/High]
+### 愿景声明
+描述本产品长期愿景的简洁陈述。
 
-### Secondary Persona
-- **Name**: [Persona Name]
-- **Role**: [Job Title]
-- **Goals**: What they want to achieve
-- **Pain Points**: Current challenges
+### 成功指标 (KPIs)
+| 指标 | 目标值 | 衡量方法 |
+|------|--------|----------|
+| [指标1] | [数值] | [如何衡量] |
+| [指标2] | [数值] | [如何衡量] |
 
----
-
-## User Stories & Acceptance Criteria
-
-### Epic 1: [Epic Name]
-**Priority**: [High/Medium/Low]
-
-#### Story 1.1
-**As a** [user type]  
-**I want** [goal]  
-**So that** [benefit]
-
-**Acceptance Criteria**:
-- [ ] Given [context], when [action], then [outcome]
-- [ ] Given [context], when [action], then [outcome]
-
-**Story Points**: [Number]
-
-#### Story 1.2
-[Repeat format]
-
-### Epic 2: [Epic Name]
-[Continue with more epics and stories]
+### OKRs (目标与关键结果)
+**目标 1**: [描述]
+- 关键结果1: [可衡量的结果]
+- 关键结果2: [可衡量的结果]
+- 关键结果3: [可衡量的结果]
 
 ---
 
-## Functional Requirements
+## 目标用户与画像
 
-### Must Have (P0)
-1. [Requirement description]
-2. [Requirement description]
+### 主要用户画像
+- **姓名**: [画像名称]
+- **角色**: [职位]
+- **目标**: 他们想要实现什么
+- **痛点**: 当前面临的挑战
+- **技术熟练度**: [低/中/高]
 
-### Should Have (P1)
-1. [Requirement description]
-2. [Requirement description]
-
-### Nice to Have (P2)
-1. [Requirement description]
-2. [Requirement description]
-
----
-
-## Non-Functional Requirements
-
-### Performance
-- Response time: [X ms]
-- Throughput: [X requests/second]
-- Uptime: [X%]
-
-### Security
-- Authentication: [Method]
-- Authorization: [Approach]
-- Data encryption: [Standard]
-
-### Scalability
-- Expected users: [Number]
-- Growth projection: [Percentage/timeline]
-
-### Accessibility
-- WCAG compliance: [Level A/AA/AAA]
-- Screen reader support: [Yes/No]
+### 次要用户画像
+- **姓名**: [画像名称]
+- **角色**: [职位]
+- **目标**: 他们想要实现什么
+- **痛点**: 当前面临的挑战
 
 ---
 
-## User Experience & Design
+## 用户故事与验收标准
 
-### User Flows
-1. **Flow Name**: [Step 1] → [Step 2] → [Step 3]
-2. **Flow Name**: [Description]
+### 史诗 1: [史诗名称]
+**优先级**: [高/中/低]
 
-### UI/UX Considerations
-- Design system: [Name or link]
-- Responsive design: [Mobile-first/Desktop-first]
-- Key interactions: [Description]
+#### 故事 1.1
+**作为** [用户类型]  
+**我想要** [目标]  
+**以便** [收益]
 
-### Wireframes/Mockups
-- Link: [Figma/Sketch link]
+**验收标准**:
+- [ ] 假设 [上下文], 当 [操作], 那么 [结果]
+- [ ] 假设 [上下文], 当 [操作], 那么 [结果]
 
----
+**故事点数**: [数字]
 
-## Technical Considerations
+#### 故事 1.2
+[重复格式]
 
-### Architecture
-- High-level architecture diagram: [Link or description]
-- Technology stack: [Frontend/Backend/Database]
-
-### Dependencies
-- Internal: [Services/APIs]
-- External: [Third-party services]
-
-### Data Model
-- Key entities: [List]
-- Relationships: [Brief description]
+### 史诗 2: [史诗名称]
+[继续添加更多史诗和故事]
 
 ---
 
-## Release Plan & Sprints
+## 功能需求
 
-### Sprint 1 (Weeks 1-2)
-- Story 1.1
-- Story 1.2
-- **Demo Goal**: [What will be demoed]
+### 必须有 (P0)
+1. [需求描述]
+2. [需求描述]
 
-### Sprint 2 (Weeks 3-4)
-- Story 2.1
-- Story 2.2
-- **Demo Goal**: [What will be demoed]
+### 应该有 (P1)
+1. [需求描述]
+2. [需求描述]
 
-### MVP Release
-- **Target Date**: [YYYY-MM-DD]
-- **Included Features**: [List]
-- **Success Criteria**: [Metrics]
+### 最好有 (P2)
+1. [需求描述]
+2. [需求描述]
 
 ---
 
-## Risks & Mitigation
+## 非功能性需求
 
-| Risk | Impact | Probability | Mitigation Strategy |
-|------|--------|-------------|---------------------|
-| [Risk 1] | [High/Med/Low] | [High/Med/Low] | [Strategy] |
-| [Risk 2] | [High/Med/Low] | [High/Med/Low] | [Strategy] |
+### 性能
+- 响应时间: [X 毫秒]
+- 吞吐量: [X 请求/秒]
+- 正常运行时间: [X%]
+
+### 安全性
+- 身份认证: [方法]
+- 授权: [方式]
+- 数据加密: [标准]
+
+### 可扩展性
+- 预期用户数: [数量]
+- 增长预测: [百分比/时间线]
+
+### 可访问性
+- WCAG 合规性: [级别 A/AA/AAA]
+- 屏幕阅读器支持: [是/否]
 
 ---
 
-## Out of Scope
+## 用户体验与设计
 
-Explicitly list what will NOT be included in this release:
-- [Item 1]
-- [Item 2]
-- [Item 3]
+### 用户流程
+1. **流程名称**: [步骤1] → [步骤2] → [步骤3]
+2. **流程名称**: [描述]
+
+### UI/UX 考虑因素
+- 设计系统: [名称或链接]
+- 响应式设计: [移动优先/桌面优先]
+- 关键交互: [描述]
+
+### 线框图/原型
+- 链接: [Figma/Sketch 链接]
 
 ---
 
-## Appendix
+## 技术考虑
 
-### Glossary
-- **Term**: Definition
-- **Term**: Definition
+### 架构
+- 高层架构图: [链接或描述]
+- 技术栈: [前端/后端/数据库]
 
-### References
-- [Document/Link 1]
-- [Document/Link 2]
+### 依赖项
+- 内部: [服务/API]
+- 外部: [第三方服务]
 
-### Change Log
-| Date | Version | Author | Changes |
-|------|---------|--------|---------|
-| [Date] | [Ver] | [Name] | [Description] |
+### 数据模型
+- 核心实体: [列表]
+- 关系: [简要描述]
+
+---
+
+## 发布计划与迭代
+
+### 迭代 1 (第1-2周)
+- 故事 1.1
+- 故事 1.2
+- **演示目标**: [将要演示的内容]
+
+### 迭代 2 (第3-4周)
+- 故事 2.1
+- 故事 2.2
+- **演示目标**: [将要演示的内容]
+
+### MVP 发布
+- **目标日期**: [YYYY-MM-DD]
+- **包含功能**: [列表]
+- **成功标准**: [指标]
+
+---
+
+## 风险与缓解措施
+
+| 风险 | 影响 | 概率 | 缓解策略 |
+|------|------|------|----------|
+| [风险1] | [高/中/低] | [高/中/低] | [策略] |
+| [风险2] | [高/中/低] | [高/中/低] | [策略] |
+
+---
+
+## 不在范围内
+
+明确列出本次发布中不包含的内容：
+- [项目1]
+- [项目2]
+- [项目3]
+
+---
+
+## 附录
+
+### 术语表
+- **术语**: 定义
+- **术语**: 定义
+
+### 参考资料
+- [文档/链接 1]
+- [文档/链接 2]
+
+### 变更日志
+| 日期 | 版本 | 作者 | 变更内容 |
+|------|------|------|----------|
+| [日期] | [版本] | [姓名] | [描述] |

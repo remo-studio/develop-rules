@@ -1,394 +1,394 @@
-# Product Requirements Document - Lean Startup Style
+# 产品需求文档 - 精益创业风格
 
-## 📋 Product Overview
-**Product Name**: [Product Name]  
-**Version**: [MVP/v1.0]  
-**Owner**: [Product Manager]  
-**Squad**: [Team Name]  
-**Last Updated**: [YYYY-MM-DD]
-
----
-
-## 🎯 Problem Statement
-
-### The Problem
-[Clear, concise description of the problem we're solving. What pain point exists?]
-
-### Who Has This Problem?
-- **Target Customer**: [Specific customer segment]
-- **Market Size**: [TAM/SAM/SOM]
-- **Current Behavior**: [How are they solving this today?]
-- **Pain Level**: [1-10, how painful is this problem?]
-
-### Why Now?
-[What has changed recently that makes this the right time to solve this problem?]
+## 📋 产品概览
+**产品名称**: [产品名称]  
+**版本**: [MVP/v1.0]  
+**负责人**: [产品经理]  
+**团队**: [团队名称]  
+**最后更新**: [YYYY-MM-DD]
 
 ---
 
-## 💡 Solution Hypothesis
+## 🎯 问题陈述
 
-### Our Bet
-**We believe that** [target customer]  
-**Has a problem with** [specific problem]  
-**We can solve it by** [our solution approach]  
-**We will know we're right when** [measurable outcome]
+### 问题描述
+[我们正在解决的问题的清晰简洁描述。存在什么痛点？]
 
-### Core Value Proposition
-[One sentence: What unique value does this provide?]
+### 谁有这个问题？
+- **目标客户**: [具体客户群体]
+- **市场规模**: [TAM/SAM/SOM]
+- **当前行为**: [他们现在如何解决这个问题？]
+- **痛苦程度**: [1-10，这个问题有多痛苦？]
 
-### Key Differentiators
-1. [Differentiator 1]
-2. [Differentiator 2]
-3. [Differentiator 3]
+### 为什么是现在？
+[最近发生了什么变化，使得现在是解决这个问题的合适时机？]
 
 ---
 
-## 🧪 Assumptions & Hypotheses to Test
+## 💡 解决方案假设
 
-### Critical Assumptions (Riskiest First)
-| # | Assumption | Risk Level | Test Method | Success Metric |
-|---|------------|------------|-------------|----------------|
-| 1 | [Assumption about customer need] | 🔴 High | [How to test] | [What proves it] |
-| 2 | [Assumption about solution] | 🟡 Medium | [How to test] | [What proves it] |
-| 3 | [Assumption about market] | 🟢 Low | [How to test] | [What proves it] |
+### 我们的假设
+**我们相信** [目标客户]  
+**有这样的问题** [具体问题]  
+**我们可以通过** [我们的解决方案]  
+**当出现以下情况时我们就对了** [可衡量的结果]
 
-### Learning Goals
-**Week 1-2**: [What we want to learn]  
-**Week 3-4**: [What we want to learn]  
-**Week 5-6**: [What we want to learn]
+### 核心价值主张
+[一句话：这提供了什么独特价值？]
 
----
-
-## 📊 Success Metrics (AARRR Pirate Metrics)
-
-### Acquisition
-- **Metric**: [How users find us]
-- **Target**: [Number/percentage]
-- **Tracking**: [How we measure]
-
-### Activation
-- **Metric**: [First good experience]
-- **Target**: [Number/percentage]
-- **Tracking**: [How we measure]
-
-### Retention
-- **Metric**: [Users coming back]
-- **Target**: [Number/percentage]
-- **Tracking**: [How we measure]
-
-### Revenue (if applicable)
-- **Metric**: [Monetization]
-- **Target**: [Number/dollar amount]
-- **Tracking**: [How we measure]
-
-### Referral
-- **Metric**: [Users tell others]
-- **Target**: [Number/percentage]
-- **Tracking**: [How we measure]
-
-### North Star Metric
-**The ONE metric that matters most**: [Metric Name]  
-**Current**: [Baseline value]  
-**Target**: [Goal value by date]
+### 关键差异化因素
+1. [差异化因素1]
+2. [差异化因素2]
+3. [差异化因素3]
 
 ---
 
-## 🚀 MVP Definition (Minimum Viable Product)
+## 🧪 待测试的假设
 
-### Core Hypothesis to Test
-[The single most important thing this MVP will validate]
+### 关键假设（风险从高到低）
+| # | 假设 | 风险等级 | 测试方法 | 成功指标 |
+|---|------|----------|----------|----------|
+| 1 | [关于客户需求的假设] | 🔴 高 | [如何测试] | [什么能证明] |
+| 2 | [关于解决方案的假设] | 🟡 中 | [如何测试] | [什么能证明] |
+| 3 | [关于市场的假设] | 🟢 低 | [如何测试] | [什么能证明] |
 
-### What's IN the MVP
-**Must Have - These features are essential**:
-1. [Feature 1]: [Why it's critical]
-2. [Feature 2]: [Why it's critical]
-3. [Feature 3]: [Why it's critical]
-
-### What's OUT of the MVP
-**Will NOT build now** (even if tempting):
-- ❌ [Feature]: [Why it's excluded]
-- ❌ [Feature]: [Why it's excluded]
-- ❌ [Feature]: [Why it's excluded]
-
-### Definition of "Done" for MVP
-- [ ] [Criterion 1]
-- [ ] [Criterion 2]
-- [ ] [Criterion 3]
-- [ ] Ready for customer testing with [X] users
+### 学习目标
+**第1-2周**: [我们想要学习什么]  
+**第3-4周**: [我们想要学习什么]  
+**第5-6周**: [我们想要学习什么]
 
 ---
 
-## 👥 Customer Segments & Personas
+## 📊 成功指标（AARRR海盗指标）
 
-### Early Adopters (MVP Target)
-**Primary Persona**: [Name - "The [Role]"]
-- **Demographics**: [Age, location, role]
-- **Psychographics**: [Attitudes, behaviors]
-- **Needs**: [Top 3 needs]
-- **Frustrations**: [Current pain points]
-- **Tech Comfort**: [Low/Medium/High]
-- **Quote**: *"[Actual quote from customer research]"*
+### 获客（Acquisition）
+- **指标**: [用户如何找到我们]
+- **目标**: [数量/百分比]
+- **追踪**: [如何衡量]
 
-**How to Reach Them**:
-- Channel 1: [Where they hang out]
-- Channel 2: [Where they hang out]
+### 激活（Activation）
+- **指标**: [首次良好体验]
+- **目标**: [数量/百分比]
+- **追踪**: [如何衡量]
 
-### Mainstream Market (Future)
-[Describe next segment to target after MVP validation]
+### 留存（Retention）
+- **指标**: [用户回访]
+- **目标**: [数量/百分比]
+- **追踪**: [如何衡量]
+
+### 收入（Revenue）（如适用）
+- **指标**: [变现]
+- **目标**: [数量/金额]
+- **追踪**: [如何衡量]
+
+### 推荐（Referral）
+- **指标**: [用户推荐他人]
+- **目标**: [数量/百分比]
+- **追踪**: [如何衡量]
+
+### 北极星指标
+**最重要的那一个指标**: [指标名称]  
+**当前值**: [基线值]  
+**目标值**: [目标日期的目标值]
 
 ---
 
-## 🎨 User Experience
+## 🚀 MVP定义（最小可行产品）
 
-### Customer Jobs to Be Done
-1. **Job**: [What they're trying to accomplish]
-   - Current solution: [How they do it now]
-   - Desired outcome: [Ideal end state]
+### 核心验证假设
+[这个MVP要验证的最重要的事情]
 
-### Minimum Delightful Experience
-[Describe the simplest version that users will love, not just tolerate]
+### MVP包含的内容
+**必须有 - 这些功能是必不可少的**:
+1. [功能1]: [为什么关键]
+2. [功能2]: [为什么关键]
+3. [功能3]: [为什么关键]
 
-### User Flow (MVP)
+### MVP不包含的内容
+**现在不会构建**（即使很诱人）:
+- ❌ [功能]: [为什么排除]
+- ❌ [功能]: [为什么排除]
+- ❌ [功能]: [为什么排除]
+
+### MVP的"完成"定义
+- [ ] [标准1]
+- [ ] [标准2]
+- [ ] [标准3]
+- [ ] 准备好与 [X] 个用户进行测试
+
+---
+
+## 👥 客户细分与用户画像
+
+### 早期采用者（MVP目标）
+**主要用户画像**: [名称 - "[角色]"]
+- **人口统计**: [年龄、地点、角色]
+- **心理特征**: [态度、行为]
+- **需求**: [前3个需求]
+- **困扰**: [当前痛点]
+- **技术熟练度**: [低/中/高]
+- **引用**: *"[来自客户研究的真实引用]"*
+
+**如何触达他们**:
+- 渠道1: [他们活跃的地方]
+- 渠道2: [他们活跃的地方]
+
+### 主流市场（未来）
+[描述MVP验证后下一个目标细分市场]
+
+---
+
+## 🎨 用户体验
+
+### 客户要完成的工作
+1. **工作**: [他们试图完成什么]
+   - 当前解决方案: [他们现在如何做]
+   - 期望结果: [理想的最终状态]
+
+### 最小愉悦体验
+[描述用户会喜欢而不仅仅是容忍的最简单版本]
+
+### 用户流程（MVP）
 ```
-[Entry Point] → [Step 1] → [Step 2] → [Value Delivered] → [Next Action]
+[入口点] → [步骤1] → [步骤2] → [价值交付] → [下一步行动]
 ```
 
-### Key Screens/Interactions
-1. **[Screen Name]**: [Purpose and 2-3 key elements]
-2. **[Screen Name]**: [Purpose and 2-3 key elements]
+### 关键页面/交互
+1. **[页面名称]**: [目的和2-3个关键元素]
+2. **[页面名称]**: [目的和2-3个关键元素]
 
-**Design Philosophy**: [Principle guiding design decisions]
-
----
-
-## 🔬 Experiments & Validation Plan
-
-### Pre-Build Validation
-**Before writing code, we will**:
-1. [ ] [Method 1] - [Timeline] - [Success criteria]
-2. [ ] [Method 2] - [Timeline] - [Success criteria]
-
-### Build-Measure-Learn Cycles
-
-#### Cycle 1: [Name] (Week 1-2)
-- **Build**: [What we'll create]
-- **Measure**: [Metrics to track]
-- **Learn**: [Questions to answer]
-- **Decide**: [What decision will we make based on results?]
-
-#### Cycle 2: [Name] (Week 3-4)
-[Same format]
-
-#### Cycle 3: [Name] (Week 5-6)
-[Same format]
-
-### Pivot or Persevere Criteria
-**We will PIVOT if**: [Clear conditions that trigger major change]  
-**We will PERSEVERE if**: [Clear conditions showing we're on track]  
-**Decision Point**: [Date for pivot/persevere decision]
+**设计理念**: [指导设计决策的原则]
 
 ---
 
-## 📝 Feature Requirements (Lean Format)
+## 🔬 实验与验证计划
 
-### Feature 1: [Feature Name]
-**Job to Be Done**: [What job does this help with?]  
-**User Story**: As [persona], I want to [action] so that [benefit]  
-**Why It Matters**: [Impact on key metric]  
-**Assumption to Test**: [What are we validating?]
+### 构建前验证
+**在编写代码之前，我们将**:
+1. [ ] [方法1] - [时间线] - [成功标准]
+2. [ ] [方法2] - [时间线] - [成功标准]
 
-**Acceptance Criteria** (Minimum):
-- [ ] [Criterion 1]
-- [ ] [Criterion 2]
+### 构建-测量-学习循环
 
-**Success Metric**: [How we measure if it works]  
-**Failure Metric**: [What indicates it doesn't work]
+#### 循环 1: [名称]（第1-2周）
+- **构建**: [我们将创建什么]
+- **测量**: [要追踪的指标]
+- **学习**: [要回答的问题]
+- **决定**: [基于结果我们将做出什么决定？]
 
-### Feature 2: [Feature Name]
-[Repeat format]
+#### 循环 2: [名称]（第3-4周）
+[相同格式]
 
----
+#### 循环 3: [名称]（第5-6周）
+[相同格式]
 
-## 🛠 Technical Approach (MVP)
-
-### Tech Stack Decisions
-| Component | Choice | Why? | Risk Mitigation |
-|-----------|--------|------|-----------------|
-| Frontend | [Tech] | [Reason for speed] | [How we de-risk] |
-| Backend | [Tech] | [Reason for speed] | [How we de-risk] |
-| Database | [Tech] | [Reason for speed] | [How we de-risk] |
-
-**Philosophy**: Use boring technology that lets us move fast and learn
-
-### What We'll Hardcode/Fake
-- [Thing 1]: [Why it's OK to fake this for MVP]
-- [Thing 2]: [Why it's OK to fake this for MVP]
-
-### Technical Debt We Accept
-[Shortcuts we're intentionally taking, to be revisited after validation]
+### 转向或坚持标准
+**我们将转向如果**: [触发重大变化的明确条件]  
+**我们将坚持如果**: [显示我们在正确轨道上的明确条件]  
+**决策点**: [转向/坚持决策的日期]
 
 ---
 
-## 📅 Timeline & Milestones
+## 📝 功能需求（精益格式）
 
-### Week-by-Week Plan
+### 功能 1: [功能名称]
+**要完成的工作**: [这有助于什么工作？]  
+**用户故事**: 作为[角色]，我想要[行动]以便[收益]  
+**为什么重要**: [对关键指标的影响]  
+**待测试假设**: [我们在验证什么？]
 
-**Week 1: Discovery**
-- [ ] [Specific task/learning goal]
-- [ ] [Specific task/learning goal]
+**验收标准**（最低要求）:
+- [ ] [标准1]
+- [ ] [标准2]
 
-**Week 2: Build**
-- [ ] [Specific task]
-- [ ] [Specific task]
+**成功指标**: [如何衡量是否有效]  
+**失败指标**: [什么表明它不起作用]
 
-**Week 3: Test**
-- [ ] [Specific task]
-- [ ] [Specific task]
-
-**Week 4: Learn & Iterate**
-- [ ] [Specific task]
-- [ ] [Specific task]
-
-### Key Milestones
-- **[Date]**: First prototype ready
-- **[Date]**: Start customer testing (N=5)
-- **[Date]**: Expand testing (N=20)
-- **[Date]**: Pivot/persevere decision
-- **[Date]**: Launch to early access
+### 功能 2: [功能名称]
+[重复格式]
 
 ---
 
-## 🎯 Go-to-Market Strategy (MVP)
+## 🛠 技术方案（MVP）
 
-### Launch Approach
-**Type**: [Friends & Family / Private Beta / Public Beta / Full Launch]
+### 技术栈决策
+| 组件 | 选择 | 原因 | 风险缓解 |
+|------|------|------|----------|
+| 前端 | [技术] | [快速开发的原因] | [如何降低风险] |
+| 后端 | [技术] | [快速开发的原因] | [如何降低风险] |
+| 数据库 | [技术] | [快速开发的原因] | [如何降低风险] |
 
-### Customer Acquisition (MVP)
-1. **Channel**: [Name]
-   - **Tactic**: [Specific approach]
-   - **Expected Result**: [Number of users]
-   - **Cost**: [Budget or free]
+**理念**: 使用成熟技术让我们能快速行动和学习
 
-### Pricing Strategy
-- **MVP Approach**: [Free/Paid/Freemium]
-- **Rationale**: [Why this pricing for learning]
-- **Willingness to Pay Test**: [How we'll validate pricing]
+### 我们将硬编码/模拟的内容
+- [事项1]: [为什么在MVP中模拟这个是可以的]
+- [事项2]: [为什么在MVP中模拟这个是可以的]
 
----
-
-## 🚧 Risks & Mitigation
-
-| Risk | Likelihood | Impact | Mitigation Strategy | Owner |
-|------|------------|--------|---------------------|-------|
-| [Risk 1] | High/Med/Low | High/Med/Low | [How we address it] | [Name] |
-| [Risk 2] | High/Med/Low | High/Med/Low | [How we address it] | [Name] |
-
-### Kill Criteria
-**We will STOP this project if**:
-- [ ] [Specific condition 1]
-- [ ] [Specific condition 2]
-- [ ] [Specific condition 3]
+### 我们接受的技术债务
+[我们有意采取的捷径，在验证后重新审视]
 
 ---
 
-## 💰 Resource Requirements
+## 📅 时间线与里程碑
 
-### Team
-- [Role 1]: [% time commitment]
-- [Role 2]: [% time commitment]
-- [Role 3]: [% time commitment]
+### 逐周计划
 
-### Budget
-- Development: $[Amount]
-- Testing/Research: $[Amount]
-- Marketing/Acquisition: $[Amount]
-- **Total**: $[Amount]
+**第1周：探索**
+- [ ] [具体任务/学习目标]
+- [ ] [具体任务/学习目标]
 
-### Time Investment
-- **Sprint Duration**: [Weeks]
-- **Expected Velocity**: [Story points or features per week]
+**第2周：构建**
+- [ ] [具体任务]
+- [ ] [具体任务]
 
----
+**第3周：测试**
+- [ ] [具体任务]
+- [ ] [具体任务]
 
-## 📚 Research & Evidence
+**第4周：学习与迭代**
+- [ ] [具体任务]
+- [ ] [具体任务]
 
-### Customer Interviews (Completed)
-- **Interviews**: [Number] completed
-- **Key Insights**:
-  1. [Insight 1]
-  2. [Insight 2]
-  3. [Insight 3]
-- **Quotes**: [Link to research doc]
-
-### Competitive Analysis
-| Competitor | Strength | Weakness | Our Advantage |
-|------------|----------|----------|---------------|
-| [Name] | [What they do well] | [Gap we exploit] | [Our edge] |
-
-### Market Research
-- [Key stat or trend 1]
-- [Key stat or trend 2]
-- **Sources**: [Links]
+### 关键里程碑
+- **[日期]**: 首个原型就绪
+- **[日期]**: 开始客户测试（N=5）
+- **[日期]**: 扩大测试（N=20）
+- **[日期]**: 转向/坚持决策
+- **[日期]**: 早期访问发布
 
 ---
 
-## 🔄 Feedback & Iteration Log
+## 🎯 市场推广策略（MVP）
 
-### What We Learned (Update Weekly)
+### 发布方式
+**类型**: [朋友和家人 / 私有测试 / 公开测试 / 正式发布]
 
-**Week 1**:
-- **Hypothesis Tested**: [Which assumption]
-- **Result**: [What we found]
-- **Action**: [What we'll change]
+### 客户获取（MVP）
+1. **渠道**: [名称]
+   - **策略**: [具体方法]
+   - **预期结果**: [用户数量]
+   - **成本**: [预算或免费]
 
-**Week 2**:
-[Continue logging]
-
----
-
-## 📞 Stakeholder Communication
-
-### Weekly Update Format
-- **Metrics Update**: [Key numbers]
-- **What We Learned**: [Key insights]
-- **What We're Testing Next**: [Next experiments]
-- **Blockers**: [What we need help with]
-
-### Decision Makers
-- **Product Decision**: [Name]
-- **Technical Decision**: [Name]
-- **Business Decision**: [Name]
+### 定价策略
+- **MVP方法**: [免费/付费/免费增值]
+- **原因**: [为什么采用这种定价来学习]
+- **支付意愿测试**: [我们将如何验证定价]
 
 ---
 
-## 🎓 Learnings & Retrospective
+## 🚧 风险与缓解
 
-### What Worked
-- [Success 1]
-- [Success 2]
+| 风险 | 可能性 | 影响 | 缓解策略 | 负责人 |
+|------|--------|------|----------|--------|
+| [风险1] | 高/中/低 | 高/中/低 | [如何应对] | [姓名] |
+| [风险2] | 高/中/低 | 高/中/低 | [如何应对] | [姓名] |
 
-### What Didn't Work
-- [Failure 1 and what we learned]
-- [Failure 2 and what we learned]
-
-### What's Next
-Based on learnings, next iteration will focus on:
-1. [Priority 1]
-2. [Priority 2]
-3. [Priority 3]
+### 终止标准
+**我们将停止这个项目如果**:
+- [ ] [具体条件1]
+- [ ] [具体条件2]
+- [ ] [具体条件3]
 
 ---
 
-## 📎 Appendix
+## 💰 资源需求
 
-### Links
-- Customer interviews: [Link]
-- Design mockups: [Link]
-- Analytics dashboard: [Link]
-- Code repository: [Link]
+### 团队
+- [角色1]: [时间投入百分比]
+- [角色2]: [时间投入百分比]
+- [角色3]: [时间投入百分比]
 
-### Version History
-| Date | Version | Changes | Author |
-|------|---------|---------|--------|
-| [Date] | 0.1 | Initial draft | [Name] |
-| [Date] | 0.2 | Updated after [learning] | [Name] |
+### 预算
+- 开发: ¥[金额]
+- 测试/研究: ¥[金额]
+- 营销/获客: ¥[金额]
+- **总计**: ¥[金额]
+
+### 时间投入
+- **迭代周期**: [周数]
+- **预期速度**: [每周故事点或功能数]
+
+---
+
+## 📚 研究与证据
+
+### 客户访谈（已完成）
+- **访谈数**: [数量] 已完成
+- **关键洞察**:
+  1. [洞察1]
+  2. [洞察2]
+  3. [洞察3]
+- **引用**: [研究文档链接]
+
+### 竞品分析
+| 竞品 | 优势 | 劣势 | 我们的优势 |
+|------|------|------|------------|
+| [名称] | [他们做得好的地方] | [我们利用的缺口] | [我们的优势] |
+
+### 市场研究
+- [关键统计数据或趋势1]
+- [关键统计数据或趋势2]
+- **来源**: [链接]
+
+---
+
+## 🔄 反馈与迭代日志
+
+### 我们学到了什么（每周更新）
+
+**第1周**:
+- **测试的假设**: [哪个假设]
+- **结果**: [我们发现了什么]
+- **行动**: [我们将改变什么]
+
+**第2周**:
+[继续记录]
+
+---
+
+## 📞 干系人沟通
+
+### 周报格式
+- **指标更新**: [关键数据]
+- **我们学到了什么**: [关键洞察]
+- **下一步测试什么**: [下一个实验]
+- **阻碍因素**: [我们需要什么帮助]
+
+### 决策者
+- **产品决策**: [姓名]
+- **技术决策**: [姓名]
+- **业务决策**: [姓名]
+
+---
+
+## 🎓 学习与复盘
+
+### 有效的做法
+- [成功1]
+- [成功2]
+
+### 无效的做法
+- [失败1及我们学到的]
+- [失败2及我们学到的]
+
+### 下一步
+基于学习，下一次迭代将关注:
+1. [优先级1]
+2. [优先级2]
+3. [优先级3]
+
+---
+
+## 📎 附录
+
+### 链接
+- 客户访谈: [链接]
+- 设计原型: [链接]
+- 分析仪表板: [链接]
+- 代码仓库: [链接]
+
+### 版本历史
+| 日期 | 版本 | 变更 | 作者 |
+|------|------|------|------|
+| [日期] | 0.1 | 初稿 | [姓名] |
+| [日期] | 0.2 | 在[学习]后更新 | [姓名] |
