@@ -5,6 +5,7 @@
 - GitHub 使用规范（分支、PR、发布/Tag/Release 等）
 
 文档导航
+- 代码注释规范：`comment.md`
 - 分支与 PR 规范：`github/git-flow.md`
 - 发布与 Tag/Release 规范：`github/git-release.md`
 
