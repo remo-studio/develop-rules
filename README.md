@@ -9,7 +9,14 @@
 - [快速开始](#快速开始)
 - [快速导航](#快速导航)
 - [模板导航](#模板导航)
-- [GitHub 规范](#github-规范)
+  - [编码规范](#编码规范)
+  - [API 接口文档](#api-接口文档)
+  - [数据库设计](#数据库设计)
+  - [产品需求文档](#产品需求文档)
+  - [测试文档](#测试文档)
+  - [工作流文档](#工作流文档)
+  - [日志配置](#日志配置)
+  - [GitHub 规范](#github-规范)
 - [使用指南](#使用指南)
 - [贡献指南](#贡献指南)
 
@@ -19,7 +26,8 @@
 
 常用规范文档快速链接：
 
-- **代码注释规范**: [`comment.md`](comment.md)
+- **编码规范**: [`coding/coding.md`](coding/coding.md)
+- **代码注释规范**: [`coding/comment.md`](coding/comment.md)
 - **分支与 PR 规范**: [`github/git-flow.md`](github/git-flow.md)
 - **发布与 Tag/Release 规范**: [`github/git-release.md`](github/git-release.md)
 
@@ -31,6 +39,7 @@
 
 根据你的需求选择合适的模板：
 
+- **编码规范** → [`coding/`](#编码规范)
 - **API 文档** → [`api/`](#api-接口文档)
 - **数据库设计** → [`db/`](#数据库设计)
 - **产品需求文档** → [`prd/`](#产品需求文档)
@@ -57,6 +66,34 @@ cp prd/prd-template.md /path/to/your/project/docs/
 ---
 
 ## 📋 模板导航
+
+### 编码规范
+
+| 模板文件 | 说明 | 适用场景 |
+|---------|------|----------|
+| [`coding/coding.md`](coding/coding.md) | 编码规范 | 团队编码标准和风格指南 |
+| [`coding/comment.md`](coding/comment.md) | 代码注释规范 | 代码注释编写规范和最佳实践 |
+
+**使用场景**:
+- 制定团队编码标准
+- 代码审查参考
+- 新人入职培训
+
+**快速开始**:
+```bash
+# 查看编码规范
+cat coding/coding.md
+
+# 查看注释规范
+cat coding/comment.md
+```
+
+**特点**:
+- ✅ 统一的编码风格
+- ✅ 代码注释最佳实践
+- ✅ 提高代码可读性和可维护性
+
+---
 
 ### API 接口文档
 
@@ -172,27 +209,35 @@ cp testing/automation-testing-guide.md docs/testing/automation-guide.md
 
 ### 日志配置
 
-| 说明 | 位置 |
-|------|------|
-| 日志配置模板位于 `mocha-documents/logging/` 目录 | 详见下方说明 |
-
-**模板文件**:
-- [`mocha-documents/logging/01-多服务-datadog-分布式追踪配置模板.md`](../../mocha-documents/logging/01-多服务-datadog-分布式追踪配置模板.md) - 多服务 Datadog 分布式追踪
-- [`mocha-documents/logging/02-单服务日志配置模板.md`](../../mocha-documents/logging/02-单服务日志配置模板.md) - 单服务日志配置
-- [`mocha-documents/logging/03-其他日志配置模板.md`](../../mocha-documents/logging/03-其他日志配置模板.md) - ELK、Fluentd、Kubernetes 等
+| 模板文件 | 说明 | 适用场景 |
+|---------|------|----------|
+| [`logging/01-多服务-datadog-分布式追踪配置模板.md`](logging/01-多服务-datadog-分布式追踪配置模板.md) | 多服务 Datadog 分布式追踪 | 多服务微服务架构，需要分布式追踪 |
+| [`logging/02-单服务日志配置模板.md`](logging/02-单服务日志配置模板.md) | 单服务日志配置 | 单服务应用，简单的日志管理需求 |
+| [`logging/03-其他日志配置模板.md`](logging/03-其他日志配置模板.md) | 其他日志配置 | ELK、Fluentd、Kubernetes、审计日志等 |
 
 **使用场景**:
-- 配置多服务分布式追踪
+- 配置多服务分布式追踪（通过 `span_id` 和 `parent_span_id`）
 - 单服务日志管理
 - 云原生环境日志配置
+- 企业级日志管理（ELK、Splunk）
 
 **快速开始**:
 ```bash
-# 查看日志模板
-ls ../../mocha-documents/logging/
+# 查看多服务 Datadog 模板
+cat logging/01-多服务-datadog-分布式追踪配置模板.md
+
+# 查看单服务模板
+cat logging/02-单服务日志配置模板.md
+
+# 查看其他模板
+cat logging/03-其他日志配置模板.md
 ```
 
-> **注意**: 日志配置模板位于 `mocha-documents/logging/` 目录，不在本仓库中。
+**特点**:
+- ✅ 支持 Java、Node.js、Python 多语言
+- ✅ 完整的分布式追踪实现
+- ✅ 多种日志管理方案（Datadog、ELK、Fluentd、Splunk）
+- ✅ 云原生环境支持（Kubernetes）
 
 ---
 
@@ -362,15 +407,16 @@ ln -s develop-rules/api/api-template.md your-project/docs/api-template.md
 
 | 类别 | 模板数量 | 状态 |
 |------|---------|------|
+| 编码规范 | 2 | ✅ 完整 |
 | API 文档 | 1 | ✅ 完整 |
 | 数据库设计 | 1 | ✅ 完整 |
 | 产品需求文档 | 5 | ✅ 完整 |
 | 测试文档 | 4 | ⚠️ 需增强 |
 | 工作流文档 | 3 | ✅ 完整 |
-| 日志配置 | 3 | ✅ 完整（位于 mocha-documents） |
+| 日志配置 | 3 | ✅ 完整 |
 | GitHub 规范 | 9 | ✅ 完整 |
 
-**总计**: 26 个模板文件
+**总计**: 28 个模板文件
 
 ---
 
