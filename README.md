@@ -196,11 +196,13 @@ cp testing/automation-testing-guide.md docs/testing/automation-guide.md
 
 | 模板文件 | 说明 | 适用场景 |
 |---------|------|----------|
+| [`workflow/AI自动化开发工作流.md`](workflow/AI自动化开发工作流.md) | AI 自动化开发工作流 | 使用 AI 工具进行全生命周期开发 |
 | [`workflow/deploy-terraform.md`](workflow/deploy-terraform.md) | Terraform 部署工作流 | AWS Lambda + API Gateway 部署 |
 | [`workflow/fix-compilation-errors.md`](workflow/fix-compilation-errors.md) | 编译错误修复流程 | 解决编译错误的标准流程 |
 | [`workflow/refactor-entity.md`](workflow/refactor-entity.md) | 实体重构流程 | 数据库实体重构指南 |
 
 **使用场景**:
+- AI 辅助开发全流程
 - 部署流程文档
 - 问题排查指南
 - 重构流程规范
@@ -412,11 +414,11 @@ ln -s develop-rules/api/api-template.md your-project/docs/api-template.md
 | 数据库设计 | 1 | ✅ 完整 |
 | 产品需求文档 | 5 | ✅ 完整 |
 | 测试文档 | 4 | ⚠️ 需增强 |
-| 工作流文档 | 3 | ✅ 完整 |
+| 工作流文档 | 4 | ✅ 完整 |
 | 日志配置 | 3 | ✅ 完整 |
 | GitHub 规范 | 9 | ✅ 完整 |
 
-**总计**: 28 个模板文件
+**总计**: 29 个模板文件
 
 ---
 
