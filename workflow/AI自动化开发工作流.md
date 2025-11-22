@@ -8,6 +8,7 @@
 生成标准化的文档
 比如 prd.md  网络架构设计  数据库说明文档 ， api接口文档
 系统架构图等等。模版参考 develop-rules 仓库
+3，做项目计划，创建在github的project上。每个task创建相应的issue。
 
 
 4，如有代码则分析代码
