@@ -1,0 +1,38 @@
+name: Requirement Mapping Check
+
+on:
+  pull_request:
+    types: [opened, edited, synchronize]
+
+jobs:
+  check-requirement:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+    
+    steps:
+      - name: Check REQ ID in PR
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const prTitle = context.payload.pull_request.title;
+            const prBody = context.payload.pull_request.body || '';
+            
+            // 检查 PR 标题或正文中是否包含 REQ-YYYY-NNN
+            const reqPattern = /REQ-\d{4}-\d{3}/;
+            
+            // 排除不需要需求编号的类型
+            const exemptTypes = ['docs:', 'chore(deps):', 'ci:', 'style:'];
+            const isExempt = exemptTypes.some(type => prTitle.startsWith(type));
+            
+            // 检查是否是 workflows 相关的文档更新
+            const isWorkflowDocs = prTitle.includes('workflow') || prBody.includes('workflows/');
+            
+            if (!isExempt && !isWorkflowDocs && !reqPattern.test(prTitle) && !reqPattern.test(prBody)) {
+              core.setFailed('❌ PR must include requirement ID (REQ-YYYY-NNN) in title or description');
+              core.error('Please add a requirement ID to your PR title or description.');
+              core.error('Format: feat(scope): description [REQ-YYYY-NNN]');
+            } else {
+              console.log('✅ Requirement ID found or PR is exempt');
+            }

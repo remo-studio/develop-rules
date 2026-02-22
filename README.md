@@ -1,6 +1,6 @@
 # 开发规范与模板库
 
-> 该仓库用于定义与统一团队的开发标准，提供各类开发文档模板和规范指南。
+> 该仓库用于定义与统一团队的开发标准，涵盖三大类内容：代码规范、GitHub 使用规范以及 AI 开发工作流，提供各类开发文档模板和规范指南。
 
 ---
 
@@ -15,6 +15,7 @@
   - [产品需求文档](#产品需求文档)
   - [测试文档](#测试文档)
   - [工作流文档](#工作流文档)
+  - [AI 开发工作流](#ai-开发工作流)
   - [日志配置](#日志配置)
   - [GitHub 规范](#github-规范)
 - [使用指南](#使用指南)
@@ -45,6 +46,7 @@
 - **产品需求文档** → [`prd/`](#产品需求文档)
 - **测试文档** → [`testing/`](#测试文档)
 - **工作流文档** → [`workflow/`](#工作流文档)
+- **AI 开发工作流** → [`workflows/`](#ai-开发工作流)
 - **日志配置** → [`logging/`](#日志配置)
 - **GitHub 规范** → [`github/`](#github-规范)
 
@@ -206,6 +208,36 @@ cp testing/automation-testing-guide.md docs/testing/automation-guide.md
 - 部署流程文档
 - 问题排查指南
 - 重构流程规范
+
+---
+
+### AI 开发工作流
+
+| 模板文件 | 说明 | 适用场景 |
+|---------|------|----------|
+| [`workflows/ai-development-workflow.md`](workflows/ai-development-workflow.md) | AI 开发工作流总览 | AI 辅助开发完整生命周期 |
+| [`workflows/requirements-management.md`](workflows/requirements-management.md) | 需求管理 | AI 生成 PRD，需求编号管理 |
+| [`workflows/requirement-code-mapping.md`](workflows/requirement-code-mapping.md) | 需求代码映射 | 需求到代码的可追溯性 |
+| [`workflows/design-documentation.md`](workflows/design-documentation.md) | 设计文档规范 | API、数据库、云架构设计 |
+| [`workflows/development-planning.md`](workflows/development-planning.md) | 开发计划管理 | GitHub Projects/Issues 规划 |
+| [`workflows/code-development.md`](workflows/code-development.md) | 代码开发流程 | Copilot 辅助编码流程 |
+| [`workflows/testing-workflow.md`](workflows/testing-workflow.md) | 测试流程 | AI 生成测试用例，自动化测试 |
+| [`workflows/deployment-workflow.md`](workflows/deployment-workflow.md) | 部署流程 | CI/CD 管道自动部署 |
+| [`workflows/operations-workflow.md`](workflows/operations-workflow.md) | 运营流程 | 监控、告警与持续改进 |
+
+**使用场景**:
+- AI 辅助全生命周期开发（需求 → 设计 → 开发 → 测试 → 部署 → 运营）
+- 需求编号追踪（REQ-YYYY-NNN 格式）
+- GitHub Copilot 集成开发流程
+
+**快速开始**:
+1. **需求阶段**：使用 AI（ChatGPT/Claude）生成 PRD 文档，分配需求编号（`REQ-YYYY-NNN`）
+2. **设计阶段**：编写 API、数据库、云架构设计文档
+3. **计划阶段**：在 GitHub Projects 中创建 Sprint 看板，分解任务
+4. **开发阶段**：使用 GitHub Copilot 辅助编码，关联需求编号
+5. **测试阶段**：使用 AI 生成测试用例，运行自动化测试
+6. **部署阶段**：通过 CI/CD 管道自动部署
+7. **运营阶段**：监控指标，收集用户反馈，持续改进
 
 ---
 
@@ -415,10 +447,11 @@ ln -s develop-rules/api/api-template.md your-project/docs/api-template.md
 | 产品需求文档 | 5 | ✅ 完整 |
 | 测试文档 | 4 | ⚠️ 需增强 |
 | 工作流文档 | 4 | ✅ 完整 |
+| AI 开发工作流 | 9 | ✅ 完整 |
 | 日志配置 | 3 | ✅ 完整 |
 | GitHub 规范 | 9 | ✅ 完整 |
 
-**总计**: 29 个模板文件
+**总计**: 38 个模板文件
 
 ---
 
