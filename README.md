@@ -18,6 +18,7 @@
   - [AI 开发工作流](#ai-开发工作流)
   - [日志配置](#日志配置)
   - [GitHub 规范](#github-规范)
+  - [MCP 方案](#mcp-方案)
 - [使用指南](#使用指南)
 - [贡献指南](#贡献指南)
 
@@ -301,6 +302,22 @@ cat logging/03-其他日志配置模板.md
 
 ---
 
+### MCP 方案
+
+| 文档文件 | 说明 | 适用场景 |
+|---------|------|----------|
+| [`mcp/MCP通用设计方案.md`](mcp/MCP通用设计方案.md) | MCP 通用接口与验证设计 | 将业务能力以 MCP 服务形式对外暴露 |
+| [`mcp/MCP-API接口文档.md`](mcp/MCP-API接口文档.md) | MCP REST API 接口文档 | API 接口参考与示例代码 |
+| [`mcp/MCP运营分析-PRD.md`](mcp/MCP运营分析-PRD.md) | MCP 运营分析系统 PRD | 运营分析 MCP 系统需求文档 |
+| [`mcp/Java-MCP-库发布方案.md`](mcp/Java-MCP-库发布方案.md) | Java MCP 共享库发布方案 | 将 MCP 公共能力抽取为 Java 库，发布到 GitHub Packages 或 AWS CodeArtifact |
+
+**使用场景**:
+- 设计 MCP 服务接口
+- 开发 MCP 工具与接入
+- 将 MCP 公共能力抽取为多项目共享 Java 库
+
+---
+
 ## 📖 GitHub 规范
 
 ### 分支命名规范
@@ -450,8 +467,9 @@ ln -s develop-rules/api/api-template.md your-project/docs/api-template.md
 | AI 开发工作流 | 9 | ✅ 完整 |
 | 日志配置 | 3 | ✅ 完整 |
 | GitHub 规范 | 9 | ✅ 完整 |
+| MCP 方案 | 4 | ✅ 完整 |
 
-**总计**: 38 个模板文件
+**总计**: 42 个模板文件
 
 ---
 
